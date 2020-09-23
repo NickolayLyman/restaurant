@@ -1,0 +1,41 @@
+.ingredients-section .container {
+    display: flex;
+    align-items: center;
+} 
+.ingredients-section-img {
+    margin-right: 68px;
+    width: 610px;
+    height: 420px;
+}
+.ingredients-section-desc-wrapper {
+    padding-top: 180px;
+    padding-right: 88px;
+    padding-bottom: 165px;
+    padding-left: 88px;
+    background-color: #fb5231;
+    text-align: center;
+}
+.ingredients-section-title {
+    margin-bottom: 9px;
+    font-family: $secondary-font;
+    color: $main-color;
+    font-size: 36px;
+    font-weight: 400;
+}
+.ingredients-section-title-img {
+    display: inline-block;
+    margin-bottom: 30px;
+}
+.ingredients-section-desc {
+    margin-bottom: 35px;
+    color: $main-color;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5;
+}
+.ingredients-section-list {
+    display: inline-flex;
+}
+.ingredients-section-list-item:not(:last-child) {
+    margin-right: 30px;
+}

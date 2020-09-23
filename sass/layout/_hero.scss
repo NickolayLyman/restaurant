@@ -1,0 +1,37 @@
+.hero-section {
+    padding-top: 240px;
+    background-image: url(../images/hero-bg.png);
+    background-size: cover;
+    height: 750px;
+    text-align: center;
+}
+.hero-section-title {
+    margin-bottom: 90px;
+    font-family: $secondary-font;
+    font-size: 90px;
+    font-weight: 400;
+    font-style: italic;
+    color: $main-color;
+}
+.hero-section-btn-list {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.hero-section-btn {
+    padding-top: 18px;
+    padding-right: 54px;
+    padding-bottom: 18px;
+    padding-left: 54px;
+    color: $main-color;
+    font-family: inherit;
+    font-size: 18px;
+    font-weight: 500;
+    background-color: rgba(0, 0, 0, 0.44);
+    border: none;
+
+    &:hover,
+    &:focus {
+        background-color: $accent-color;
+    }
+}

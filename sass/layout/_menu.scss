@@ -1,0 +1,39 @@
+.menu-section {
+    padding-top: 110px;
+    padding-bottom: 88px;
+    background-image: url(../images/menu-section-bg.jpg);
+    background-size: 100% 100%;
+    text-align: center;
+    color: $main-color;
+    background-repeat: no-repeat;
+}
+.menu-section .container {
+    display: flex;
+}
+.menu-section-wrapper-1 {
+    width: calc((100%)/2);
+}
+.menu-title {
+    margin-bottom: 12px;
+    color: $main-color;
+    font-family: $secondary-font;
+    font-style: italic;
+    font-size: 36px;
+    font-weight: 400;
+    line-height: 0.6;
+}
+.appetisers, .starters {
+    margin-bottom: 60px;
+}
+.menu-section-img {
+    display: inline-block;
+    margin-bottom: 32px;
+}
+.menu-section-list-item {
+    margin-bottom: 30px;
+}
+.menu-section-text {
+    display: inline-block;
+    margin-left: 50px;
+    margin-bottom: 10px;
+}

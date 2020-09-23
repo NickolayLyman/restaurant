@@ -1,0 +1,35 @@
+.about-us-section {
+    padding-top: 107px;
+    padding-bottom: 114px;
+    background-image: url(../images/about-section-bg.png);
+    background-size: 100%  100%;
+    background-repeat: no-repeat;
+    text-align: center; 
+}
+.about-us-section-title {
+    margin-bottom: 8px;
+    font-family: $secondary-font;
+    font-style: italic;
+    font-size: 36px;
+    font-weight: 400;
+    line-height: 0.6;
+    color: $accent-color;
+}
+.about-us-section-img {
+    display: inline-block;
+    margin-bottom: 32px;
+}
+.about-us-section-desc-wrapper {
+    margin-bottom: 43px;
+    width: 505px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.about-us-section-desc {
+    color: #4c4c4c;
+    font-size: 16px;
+    line-height: 1.5;
+}
+.about-us-section-desc-img {
+    display: inline-block;
+}
